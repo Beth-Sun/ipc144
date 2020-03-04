@@ -1,0 +1,7 @@
+reflect.txt
+
+1. Pseudo code help me sort out my thoughts and design solutions to problems. 
+2. I used for and do while. Because for constructs is easliy control the times of loop. 
+   In this project, the user has to input the values at once before validate the input and that match do while's feature (the sequence has to execute at least once and continues executing it as long as the test condition is true).
+3. I tested my solution by walkthrough and black box testing with the values given on the instruction. 
+   I used Integrated Development Environments (IDEs) debugging method to help with walkthrough. I put a breakpoint in my code, and then click on Local Windows Debugger, so the program pause at the breakpoint.

@@ -1,0 +1,15 @@
+1. I can use the scanf to wait user input, and store input in a variable.
+   I can use + - / * % to do caculation.
+   I can use "const" keyword to forbid changing a variable's value.
+   
+2. I think use the scanf to store user's input is very useful;
+   I think determine how many variable should be declared and how to name the variable is the most difficult part. 
+   
+3. Because floating-point values have presion problems, and declaring variable type as integer can avoid these precision problems and integers is more accurate.
+
+4. Because use division and subtraction to find a remainder need to caculate 3 times; use the modulus operator only need one step, it is simpler way to caculate. 
+
+  
+
+
+

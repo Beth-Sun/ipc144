@@ -1,0 +1,11 @@
+1.	In this workshop, I learned how to use array, and how to use for loop to iterate over an array
+2.	What was good about using arrays – what were the alternatives (how else could you have done it)?
+It is good for storing and calculating series of values, in previous lab, we discarded the data after the calculation and sometimes there is no good alternative.
+3.	Comment on the use of parallel (matching) arrays. In what ways were they good and/or bad?
+
+Good:  It is good for storing more than one attributes of an object, when we facing a data with a lot of attributes, for example, a student has an ID number, mark, and more, we can create an array for each of those attributes. 
+
+Bad:   I think it is hard to choose the length of the array.
+
+4.	Iterating (looping) through arrays is a common practice; why is it a best practice to initialize iterator variables to a value of zero (0)?
+In for loop, we initialize i with 0, so it matches the starting index of an array, thus providing more convenient way to write the expression of accessing the values in an array.

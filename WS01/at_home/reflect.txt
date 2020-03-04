@@ -1,0 +1,6 @@
+1.printf can print something on the screen.
+2.without #include <stdio.h>, printf cannot work.
+3.the content to be displayed by printf needs to be inside of the "", and wrapped with ().
+4.\n means new line.
+5.every line of the expression ends with a ;
+6.at the end of the code, type return 0; 

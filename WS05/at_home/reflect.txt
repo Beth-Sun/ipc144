@@ -1,0 +1,10 @@
+In this workshop I learned how to use struct to define custom struct to hold related data and to write a for loop to search for an employee ID in an array.
+
+- Using examples from this workshop to justify your point of view, discuss the advantages of using an array of structs versus parallel arrays when dealing with related data.
+
+Structs binds all information together closely so we can access it in one place. And when we need to modify some information about an object or delete it from an array, it's easier to manage because everything is in one place.
+
+- In this workshop, the Employee struct is declared in the emp_athome.c file. Where else could it have been declared and what advantages might it have?
+
+We can declare it in a separate header file called Employee.h and include it from the emp_athome.c file. When we need to use Employee struct in multiple programs, we can reuse the same Employee.h file and have a central place to edit it.
+
