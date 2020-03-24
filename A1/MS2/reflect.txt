@@ -1,0 +1,20 @@
+In this milestone I learned about buffered input (a \n is left in the buffer after every input) and how to clear it. I also learned that we can use %[^\n] in scanf to scan a string that contains spaces.
+
+- Can you think of a more efficient way to ask a user to add the required information to each data field? Justify your thoughts with an example.
+
+We can use a switch statement to prompt user to choose which fields they want to enter.
+
+e.g. 
+printf ("Enter 1 to enter firstname\n 2 to enter lastname\n 3 to enter Middle Inital(s)");
+scanf("%d", choice);
+switch(choice) {
+   case 1:
+    ...
+}
+
+- Discuss the differences between a C string and a primitive character array. What would happen if you attempt to display the contents of a primitive character array (not a C string) using the printf specifier "%s"?
+
+C string has an invisible '\0' in the end while character array stores any characters and doesn't end with a '\0'.
+If we try to use character array with %s, printf will continue to read RAM after the character array and prints funny characters.
+
+

@@ -1,0 +1,10 @@
+In this milestone, I learned how to use prototypes in header file to link functions in different c source files and how to use struct pointer.
+
+- An explanation of why you think this assignment has asked you to code a struct, Contact, that holds three other structs as data members.
+
+Because Contact contains the other 3 struct types. They have composition relationship.
+
+- An explanation why it would be poor design to pass a pointer to type Contact as an argument in the functions getName, getAddress, and getNumbers.
+
+As a guideline for a strucuterd design, the less inforamtion that passes between the module and the other modules the better the design.
+We should pass only the information the function need so it exhibits low coupling
