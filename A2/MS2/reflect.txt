@@ -1,0 +1,9 @@
+In this milestone, I learned how to use functions inside of functions to make more reusable logic. I also learned that I can check if an additional character is '\n' to verify if user input is valid after scanf. 
+
+- An explanation of the term "function" and briefly discuss the need for functions in any language.
+
+	Function is a reusable piece of code that I can define by myself and use it in many places in my code. Function is essential because I can use it to break down problems into repeatable patterns and come up with solutions to individual smaller problems in functions. This way I can divide a complex program into many smaller pieces and organize my code easily.
+
+- An explanation why you think the "helper" functions are in a different module and why those functions were not included in the "contacts" module.
+
+	Because the helper functions are not directly related to the concept of a "contact". They do not directly interfere with a contact struct or its composing structs. Just like how we kept "struct Contact" away from getName, getNumbers, and getAddress functions, we include the helper functions in a separate module to reduce coupling. And when we need these helper functions in other modules, we can include the helper module without bringing in anything related to a contact because we keep the helper module reusable and decoupled from contact.
