@@ -1,0 +1,9 @@
+In this milestone, I learned how to customize %[] conversion specifier in scanf, how to use a bubble sort algorithm, and how to structure a full program in c with multiple features.
+
+- An explanation of how the two functions findContactIndex and getTenDigitPhone benefit your source code with respect to overall maintenance and readability.
+
+	Both function are used in multiple places in the program. By using these functions, the code that calls the function becomes less complex to understand because in that piece of code, a more descriptive function call like findContactIndex() or getTenDigitPhone() replaced the somewhat complex code that does the heavy lifting. Also, by implementing reusable functions, I have central places to maintain that code. Even though the functions are used in multiple places, I don't have to modify multiple places in my program when I need to fix something in the findContactIndex or getTenDigitPhone code.
+
+- Would you have liked this assignment to include the functionality to load/save the contact information from/to a text data file? Explain your decision.
+
+	I would have liked it so I don't have to hard-code initial data for the contacts array in the program, and the program will become easier to test because I can save and load test data from file.
